@@ -1,0 +1,21 @@
+my_set={1,2,3,4,5}
+my_set1={4,5,6,7,3}
+my_set.add(6)
+print("After add(6):",my_set)
+my_set.update((7,8))
+print("after update({7,8}):",my_set)
+my_set.remove(4)
+print("After remove(4):",my_set)
+my_set.discard(5)
+print("After discard(5)",my_set)
+my_set.pop()
+print("after pop(3)",my_set)
+my_set.copy()
+print("After copying",my_set)
+my_set.clear()
+print("After clearing",my_set)
+u=my_set.union(my_set1)
+print("After union",u)
+i=my_set.intersection(my_set1)
+print("After intersection",i)
+
